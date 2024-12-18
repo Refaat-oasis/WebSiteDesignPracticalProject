@@ -1,0 +1,47 @@
+﻿ @model List<Appointment> 
+ <!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title>Appointments</title> 
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+ </head> 
+ <body class="container py-5"> 
+     <h1 class="mb-4">Appointments</h1> 
+     <table class="table table-bordered table-hover"> 
+         <thead class="table-dark"> 
+             <tr> 
+                 <th>Type of Appointment</th> 
+                 <th>Phone Number</th> 
+                 <th>Address</th> 
+                 <th>Age</th>
+                 <th>Date of Appointment</th> 
+                 <th>Hour of the Appointment</th> 
+                 <th>Info</th> 
+             </tr> 
+         </thead> 
+         <tbody> 
+             @foreach (Appointment item in Model) 
+             { 
+                 <tr> 
+                     <td>@item.Name</td> 
+                     <td>@item.PhoneNumber</td> 
+                     <td>@item.Address</td>
+                     <td>@item.Age</td>
+                     <td>@item.CreatedDate.ToString("yyyy-MM-dd")</td> 
+                     <td>@item.AppointmentHour.ToString(@"hh\:mm")</td> 
+                     <td> 
+                         <a href="/Appointment/showAdminSpecificAppointment/@item.Id" class="btn btn-info btn-sm">View Details</a> 
+                     </td> 
+                 </tr> 
+             } 
+             @if (!Model.Any()) 
+             { 
+                 <tr> 
+                     <td colspan="9" class="text-center">No appointments available</td> 
+                 </tr> 
+             } 
+         </tbody> 
+     </table> 
+ </body> 

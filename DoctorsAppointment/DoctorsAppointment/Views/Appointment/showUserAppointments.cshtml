@@ -1,0 +1,25 @@
+﻿ @model List<Appointment> 
+ <h1>Appointments List</h1> 
+ <table class="table table-bordered table-hover table-striped"> 
+     <thead class="table-light"> 
+         <tr> 
+             <th>Type of Appointment</th> 
+             <th>Phone Number</th> 
+             <th>Address</th> 
+             <th>Date of Appointment</th> 
+             <th>Hour of the Appointment</th> 
+         </tr> 
+     </thead> 
+     <tbody> 
+         @foreach (var item in Model) 
+         { 
+             <tr> 
+                 <td>@item.Name</td> 
+                 <td>@item.PhoneNumber</td> 
+                 <td>@item.Address</td> 
+                 <td>@item.CreatedDate.ToString("yyyy-MM-dd")</td> 
+                 <td>@item.AppointmentHour.ToString(@"hh\:mm")</td>
+             </tr> 
+         } 
+     </tbody> 
+ </table> 

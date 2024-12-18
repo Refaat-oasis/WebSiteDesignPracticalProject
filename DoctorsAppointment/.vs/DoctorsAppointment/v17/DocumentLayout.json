@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion2\\doctorsappointment\\doctorsappointment\\views\\user\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\user\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion2\\doctorsappointment\\doctorsappointment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion2\\doctorsappointment\\doctorsappointment\\views\\admin\\adminhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\admin\\adminhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "forgetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\forgetPassword.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\User\\forgetPassword.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\forgetPassword.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\User\\forgetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T22:11:48.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T22:11:05.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\Admin\\AdminHome.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Admin\\AdminHome.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\Admin\\AdminHome.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Admin\\AdminHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T22:10:57.981Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
