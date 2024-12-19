@@ -8,17 +8,12 @@ namespace DoctorsAppointment.Controllers
     {
         Context context = new Context();
 
-        public IActionResult modifyAdminData(int id)
-        {
-            return View();
-        }
         public IActionResult adminLogin(Admin adm)
         {
             Admin admin = context.Admins.FirstOrDefault
             (admin => admin.Email == adm.Email && admin.Password == adm.Password);
             if (admin != null)
             {
-
                 return View("AdminHome", admin);
             }
             else
@@ -28,7 +23,7 @@ namespace DoctorsAppointment.Controllers
         }
         public IActionResult adminLogout()
         {
-            return View("adminLogin");
+            return RedirectToAction("Index","Home");
         }
         public IActionResult adminSignup()
         {

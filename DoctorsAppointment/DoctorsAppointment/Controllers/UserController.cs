@@ -47,7 +47,6 @@ namespace DoctorsAppointment.Controllers
             {
                 return NotFound("User not found.");
             }
-
             return View(user);
         }
         public IActionResult saveModifiedData(User user, int id)
@@ -70,13 +69,11 @@ namespace DoctorsAppointment.Controllers
             {
                 return RedirectToAction("modifyUserData");
             }
-
-
         }
         public IActionResult userLogout()
         {
 
-            return View("userLogin");
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult forgetPassword()

@@ -8,21 +8,37 @@ namespace DoctorsAppointment.Models
     {
         [Key]
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Address { get; set; }
-        public string PhoneNumber { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public TimeSpan AppointmentHour { get; set; }
-        public int? Age { get; set; }
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        [ForeignKey("Admin")]
-        public int AdminId { get; set; }
 
+        [Required(ErrorMessage = "Name is required.")]
+        [StringLength(100, ErrorMessage = "Name can't be longer than 100 characters.")]
+        public string Name { get; set; }
+
+        [Required(ErrorMessage = "Address is required.")]
+        [StringLength(200, ErrorMessage = "Address can't be longer than 200 characters.")]
+        public string Address { get; set; }
+
+        [Required(ErrorMessage = "Phone number is required.")]
+        [Phone(ErrorMessage = "Invalid phone number.")]
+        public string PhoneNumber { get; set; }
+
+        [Required(ErrorMessage = "Created date is required.")]
+        public DateTime CreatedDate { get; set; }
+
+        [Required(ErrorMessage = "Appointment hour is required.")]
+        public TimeSpan AppointmentHour { get; set; }
+
+        [Range(0, 120, ErrorMessage = "Age must be between 0 and 120.")]
+        public int Age { get; set; }
+
+        [ForeignKey("User")]
+        [Required(ErrorMessage = "User ID is required.")]
+        public int UserId { get; set; }
+
+        [ForeignKey("Admin")]
+        [Required(ErrorMessage = "Admin ID is required.")]
+        public int AdminId { get; set; }
 
         public virtual User User { get; set; }
         public virtual Admin Admin { get; set; }
-
-
     }
 }
