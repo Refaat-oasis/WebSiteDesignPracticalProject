@@ -21,7 +21,7 @@ namespace DoctorsAppointment.Models
         [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be between 6 and 100 characters.")]
         public string Password { get; set; }
 
-        [Phone(ErrorMessage = "Invalid phone number.")]
+        [Required(ErrorMessage = "Invalid phone number.")]
         public string PhoneNumber { get; set; }
 
         public virtual List<Appointment> AppointmentsList { get; set; }
