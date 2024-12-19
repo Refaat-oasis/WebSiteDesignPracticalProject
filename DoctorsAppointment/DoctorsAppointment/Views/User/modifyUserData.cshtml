@@ -10,7 +10,8 @@
  <body> 
      <div class="container mt-5"> 
          <h1 class="mb-4">Modify My Profile</h1> 
-         <form action="/User/saveModifiedData/@Model.UserId" method="post"> 
+         <form action="/User/saveModifiedData/@Model.UserId" method="post">
+            <input type="text" id="UserId" name="UserId" value="@Model.UserId" hidden />
              <!-- Hidden field for Name -->
             <div class="mb-3">
                 <label for="Name" class="form-label">Name:</label>

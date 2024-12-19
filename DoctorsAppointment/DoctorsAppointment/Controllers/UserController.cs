@@ -67,7 +67,7 @@ namespace DoctorsAppointment.Controllers
             }
             else
             {
-                return RedirectToAction("modifyUserData");
+                return RedirectToAction("modifyUserData" , user.UserId);
             }
         }
         public IActionResult userLogout()
