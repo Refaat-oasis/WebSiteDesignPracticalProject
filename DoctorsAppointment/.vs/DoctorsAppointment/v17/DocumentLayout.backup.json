@@ -1,30 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\",
+  "WorkspaceRootPath": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion2\\doctorsappointment\\doctorsappointment\\views\\user\\modifyuserdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\appointment\\showdoctorappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\appointment\\showdoctorappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\appointment\\showuserappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\appointment\\showuserappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\admin\\modifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\admin\\modifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\admin\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\admin\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\doctor\\modifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\doctor\\modifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\doctor\\modifydoctordata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\doctor\\modifydoctordata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\doctor\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\doctor\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\user\\modifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\user\\modifypassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\user\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\user\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\user\\modifyuserdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\user\\modifyuserdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion2\\doctorsappointment\\doctorsappointment\\views\\user\\userhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\user\\userhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion2\\doctorsappointment\\doctorsappointment\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\migrations\\contextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\migrations\\contextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion2\\doctorsappointment\\doctorsappointment\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\doctor\\doctorhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\doctor\\doctorhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion2\\doctorsappointment\\doctorsappointment\\views\\admin\\adminsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\admin\\adminsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion2\\doctorsappointment\\doctorsappointment\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|c:\\users\\the knower\\desktop\\web_section\\project\\doctorsappointmentversion4\\doctorsappointment\\doctorsappointment\\views\\doctor\\doctorsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89367C96-AB44-4A33-A5CC-A2616EED6E92}|DoctorsAppointment\\DoctorsAppointment.csproj|solutionrelative:doctorsappointment\\views\\doctor\\doctorsignup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +70,203 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "showDoctorAppointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Appointment\\showDoctorAppointments.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Appointment\\showDoctorAppointments.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Appointment\\showDoctorAppointments.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Appointment\\showDoctorAppointments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:37:19.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "showUserAppointments.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Appointment\\showUserAppointments.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Appointment\\showUserAppointments.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Appointment\\showUserAppointments.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Appointment\\showUserAppointments.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:35:43.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "DoctorsAppointment\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAA4AAAAAMzMzMzPzvxoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T12:35:07.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModifyPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Admin\\ModifyPassword.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Admin\\ModifyPassword.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Admin\\ModifyPassword.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Admin\\ModifyPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:27:28.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "forgetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Admin\\forgetPassword.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Admin\\forgetPassword.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Admin\\forgetPassword.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Admin\\forgetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:27:23.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "forgetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\forgetPassword.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\User\\forgetPassword.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\forgetPassword.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\User\\forgetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:26:48.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModifyPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\ModifyPassword.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\User\\ModifyPassword.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\ModifyPassword.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\User\\ModifyPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:26:45.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "forgetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\forgetPassword.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Doctor\\forgetPassword.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\forgetPassword.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Doctor\\forgetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:04:45.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "modifyDoctorData.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\modifyDoctorData.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Doctor\\modifyDoctorData.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\modifyDoctorData.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Doctor\\modifyDoctorData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:08:43.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModifyPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\ModifyPassword.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Doctor\\ModifyPassword.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\ModifyPassword.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Doctor\\ModifyPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:22:50.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "modifyUserData.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\modifyUserData.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\User\\modifyUserData.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\modifyUserData.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\User\\modifyUserData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:26:43.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Migrations\\ContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Migrations\\ContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Migrations\\ContextModelSnapshot.cs",
+              "RelativeToolTip": "DoctorsAppointment\\Migrations\\ContextModelSnapshot.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAcwNYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T12:21:27.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "DoctorsAppointment\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAEgAAAAAmJmZmZnpv1gAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T12:11:06.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DoctorHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\DoctorHome.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Doctor\\DoctorHome.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\DoctorHome.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Doctor\\DoctorHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:07:13.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoctorSignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\DoctorSignUp.cshtml",
+              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Doctor\\DoctorSignUp.cshtml",
+              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion4\\DoctorsAppointment\\DoctorsAppointment\\Views\\Doctor\\DoctorSignUp.cshtml",
+              "RelativeToolTip": "DoctorsAppointment\\Views\\Doctor\\DoctorSignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T12:08:41.381Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -43,82 +274,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "modifyUserData.cshtml",
-              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\modifyUserData.cshtml",
-              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\User\\modifyUserData.cshtml",
-              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\modifyUserData.cshtml*",
-              "RelativeToolTip": "DoctorsAppointment\\Views\\User\\modifyUserData.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T12:41:49.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserHome.cshtml",
-              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\UserHome.cshtml",
-              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\User\\UserHome.cshtml",
-              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\User\\UserHome.cshtml",
-              "RelativeToolTip": "DoctorsAppointment\\Views\\User\\UserHome.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T12:00:43.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "DoctorsAppointment\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Controllers\\UserController.cs",
-              "RelativeToolTip": "DoctorsAppointment\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADAAAABAmZmZmZkZwEAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T11:57:42.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Models\\Admin.cs",
-              "RelativeDocumentMoniker": "DoctorsAppointment\\Models\\Admin.cs",
-              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Models\\Admin.cs",
-              "RelativeToolTip": "DoctorsAppointment\\Models\\Admin.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T11:02:17.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "adminSignup.cshtml",
-              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\Admin\\adminSignup.cshtml",
-              "RelativeDocumentMoniker": "DoctorsAppointment\\Views\\Admin\\adminSignup.cshtml",
-              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Views\\Admin\\adminSignup.cshtml",
-              "RelativeToolTip": "DoctorsAppointment\\Views\\Admin\\adminSignup.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T10:56:33.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "DoctorsAppointment\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\THE KNOWER\\Desktop\\web_section\\Project\\DoctorsAppointmentVersion2\\DoctorsAppointment\\DoctorsAppointment\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "DoctorsAppointment\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAC8AAADAzMzMzMwkwEAAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T10:55:58.981Z",
-              "EditorCaption": ""
             }
           ]
         }

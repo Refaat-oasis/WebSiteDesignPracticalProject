@@ -37,7 +37,7 @@
 
      <!-- User Name --> 
      <div class="mb-3">
-        <label for="UserId" class="form-label">User Name</label>
+        <label for="UserId" class="form-label">Patient Name</label>
         <select name="UserId" id="UserId" class="form-select" required>
             @foreach (User user in ViewData["users"] as List<User>) 
              { 
@@ -48,11 +48,11 @@
 
      <!-- Admin Name --> 
      <div class="mb-3">
-        <label for="AdminId" class="form-label">Admin Name</label>
-        <select name="AdminId" id="AdminId" class="form-select" required>
-            @foreach (Admin admin in ViewData["admins"] as List<Admin>) 
+        <label for="DoctorId" class="form-label">Doctor Name</label>
+        <select name="DoctorId" id="DoctorId" class="form-select" required>
+            @foreach (Doctor doc in ViewData["Doctors"] as List<Doctor>) 
              { 
-                 <option value="@admin.AdminId">@admin.Name</option> 
+                 <option value="@doc.DoctorId">@doc.Name</option> 
              } 
          </select> 
      </div> 

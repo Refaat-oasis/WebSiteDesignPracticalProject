@@ -23,6 +23,15 @@ namespace DoctorsAppointment.Controllers
 
             return View(appointmentList);
         }
+        public IActionResult showDoctorAppointments(int id)
+        {
+
+            List<Appointment> appointmentList = context.Appointments
+                .Where(e => e.DoctorId == id)
+                .ToList();
+
+            return View(appointmentList);
+        }
 
 
         public IActionResult ShowAdminSpecificAppointment(int id)
@@ -37,7 +46,9 @@ namespace DoctorsAppointment.Controllers
             }
 
             List<User> userList = context.Users.ToList();
+            List<Doctor> doctorList = context.Doctors.ToList();
             ViewData["users"] = userList;
+            ViewData["doctors"] = doctorList;
 
             ViewBag.UserName = appointment.User?.Name ?? "User not found";
 
@@ -48,16 +59,17 @@ namespace DoctorsAppointment.Controllers
         public IActionResult addAppointement()
         {
             List<User> userList = context.Users.ToList();
-            List<Admin> adminList = context.Admins.ToList();
-            ViewData["admins"] = adminList;
+            List<Doctor>doctorList = context.Doctors.ToList();
+
+            ViewData["Doctors"] = doctorList;
             ViewData["users"] = userList;
             return View();
         }
 
         public IActionResult addAppointmentSave(Appointment appoint)
-        {
+        { 
             if (appoint.Name != null & appoint.AppointmentHour != null & appoint.CreatedDate != null & appoint.PhoneNumber != null 
-                & appoint.Address != null & appoint.AdminId != null & appoint.UserId != null )
+                & appoint.Address != null & appoint.DoctorId != null & appoint.UserId != null )
             {
                 context.Appointments.Add(appoint);
                 context.SaveChanges();
@@ -80,8 +92,8 @@ namespace DoctorsAppointment.Controllers
         public IActionResult modifyAppointment(int id)
         {
             List<User> userList = context.Users.ToList();
-            List<Admin> adminList = context.Admins.ToList();
-            ViewData["admins"] = adminList;
+            List<Doctor> doctorsList = context.Doctors.ToList();
+            ViewData["doctors"] = doctorsList;
             ViewData["users"] = userList;
 
             Appointment oldappoint = context.Appointments.FirstOrDefault(appoint => appoint.Id == id);
@@ -97,7 +109,7 @@ namespace DoctorsAppointment.Controllers
                 oldappoint.UserId = appoint.UserId;
                 oldappoint.AppointmentHour = appoint.AppointmentHour;
                 oldappoint.PhoneNumber = appoint.PhoneNumber;
-                oldappoint.AdminId = appoint.AdminId;
+                oldappoint.DoctorId = appoint.DoctorId;
                 oldappoint.Address = appoint.Address;
                 oldappoint.Age = appoint.Age;
                 oldappoint.CreatedDate = appoint.CreatedDate;

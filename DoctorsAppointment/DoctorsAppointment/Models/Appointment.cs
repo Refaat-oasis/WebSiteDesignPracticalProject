@@ -34,11 +34,12 @@ namespace DoctorsAppointment.Models
         [Required(ErrorMessage = "User ID is required.")]
         public int UserId { get; set; }
 
-        [ForeignKey("Admin")]
-        [Required(ErrorMessage = "Admin ID is required.")]
-        public int AdminId { get; set; }
+        [ForeignKey("Doctor")]
+        [Required(ErrorMessage = "Doctor ID is required.")]
+        public int DoctorId { get; set; }
 
         public virtual User User { get; set; }
-        public virtual Admin Admin { get; set; }
+        public virtual Doctor Doctor { get; set; }
+
     }
 }
