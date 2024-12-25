@@ -9,7 +9,6 @@ namespace DoctorsAppointment.Models
 
         [Required(ErrorMessage = "Name is required.")]
         [StringLength(100, ErrorMessage = "Name can't be longer than 100 characters.")]
-        
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Email is required.")]
@@ -21,8 +20,7 @@ namespace DoctorsAppointment.Models
         [StringLength(100, MinimumLength = 6, ErrorMessage = "Password must be between 6 and 100 characters.")]
         public string Password { get; set; }
 
-        [Required(ErrorMessage = "Invalid phone number.")]
+        [Phone(ErrorMessage = "Invalid phone number.")]
         public string PhoneNumber { get; set; }
-
     }
 }

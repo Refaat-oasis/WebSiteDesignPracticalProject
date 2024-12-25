@@ -30,6 +30,5 @@ namespace DoctorsAppointment.Models
         public string PhoneNumber { get; set; }
 
         public virtual List<Appointment> AppointmentsList { get; set; }
-
     }
 }

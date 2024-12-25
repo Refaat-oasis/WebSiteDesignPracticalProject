@@ -14,7 +14,5 @@ namespace DoctorsAppointment.Models
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
-        //public DbSet<AppointmentToView> appointmentWithUserName_AdminNames { get; set; }
-
     }
 }

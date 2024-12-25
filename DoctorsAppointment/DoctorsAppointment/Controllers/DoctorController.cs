@@ -25,7 +25,6 @@ namespace DoctorsAppointment.Controllers
         }
         public IActionResult doctorSignupSave(Doctor doc)
         {
-
             if (doc.Email != null & doc.Name != null & doc.Password != null
                & doc.Age != null & doc.Address != null & doc.PhoneNumber != null)
             {
@@ -38,7 +37,6 @@ namespace DoctorsAppointment.Controllers
                 return View("DoctorSignUp");
             }
         }
-
         public IActionResult modifyDoctorData(int id)
         {
             Doctor doc = context.Doctors.Find(id);
@@ -62,14 +60,14 @@ namespace DoctorsAppointment.Controllers
                 olddoctor.PhoneNumber = doc.PhoneNumber;
                 context.SaveChanges();
                 return View("DoctorHome", doc);
-
-            }else{
+            }
+            else
+            {
                 return RedirectToAction("modifyUserData", doc.DoctorId);
             }
         }
         public IActionResult DoctorLogout()
         {
-
             return RedirectToAction("Index", "Home");
         }
 
@@ -94,16 +92,11 @@ namespace DoctorsAppointment.Controllers
 
         public IActionResult saveModifiedPassword(Doctor doc)
         {
-
             Doctor olddoctor = context.Doctors.FirstOrDefault(doctor => doctor.DoctorId == doc.DoctorId);
-
             olddoctor.Password = doc.Password;
-
             context.SaveChanges();
-
             return RedirectToAction("DoctorLogin");
         }
-
     }
 }
 

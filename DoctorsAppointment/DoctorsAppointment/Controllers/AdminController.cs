@@ -47,31 +47,27 @@ namespace DoctorsAppointment.Controllers
             {
                 return NotFound("Admin not found.");
             }
-
             return View(admin);
         }
         public IActionResult saveModifiedData(Admin admin, int id)
         {
             if (admin.Name!=null & admin.Email != null & admin.Password != null & admin.Password != null)
             {
-
                 Admin oldAdmin = context.Admins.FirstOrDefault(admin => admin.AdminId == id);
                 oldAdmin.Name = admin.Name;
                 oldAdmin.Email = admin.Email;
                 oldAdmin.PhoneNumber = admin.PhoneNumber;
                 oldAdmin.Password = admin.Password;
-
                 context.SaveChanges();
                 return View("AdminHome", admin);
-
             }
             else
             {
                 return View("ShowMyProfile", admin.AdminId);
             }
-
         }
-        public IActionResult forgetPassword() { 
+        public IActionResult forgetPassword()
+        { 
             return View();
         }
         public ActionResult forgetpasswordconfirm(Admin adm)
@@ -85,21 +81,14 @@ namespace DoctorsAppointment.Controllers
             {
                 return View("modifypassword", admin);
             }
-
         }
-
-
-        public IActionResult saveModifiedPassword(Admin admin) {
-            
-            Admin oldadmin = context.Admins.FirstOrDefault(ad => ad.AdminId == admin.AdminId);
-            
+        public IActionResult saveModifiedPassword(Admin admin) 
+        {
+            Admin oldadmin = context.Admins.FirstOrDefault(ad => ad.AdminId == admin.AdminId);    
             oldadmin.Password = admin.Password;
-
             context.SaveChanges();
-
             return RedirectToAction("adminLogin");
          }
-
     }
 }
 
